@@ -16428,7 +16428,10 @@ static int __init hdd_module_init(void)
 {
 	if (hdd_driver_load())
 		return -EINVAL;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 114d3d4d4441 (Revert "qcacld-3.0: Defer HDD initialization.")
 	return 0;
 }
 
